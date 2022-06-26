@@ -4,5 +4,8 @@
   "initialVersions": {
     "@dtinth/awaited": "0.0.0-2"
   },
-  "changesets": []
+  "changesets": [
+    "beige-emus-rest",
+    "warm-pigs-wave"
+  ]
 }
