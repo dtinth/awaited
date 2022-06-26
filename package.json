@@ -1,5 +1,5 @@
 {
-  "name": "awaited",
+  "name": "@dtinth/awaited",
   "version": "0.0.0-0",
   "scripts": {
     "build": "heft build",
