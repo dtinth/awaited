@@ -4,6 +4,23 @@
 
 ```ts
 
+// @public
+export function awaited<T>(promise: PromiseLike<T>): Awaited<T>;
+
+// Warning: (ae-internal-missing-underscore) The name "awaitedCache" should be prefixed with an underscore because the declaration is marked as @internal
+//
+// @internal
+export const awaitedCache: WeakMap<PromiseLike<any>, AwaitedCacheEntry<any>>;
+
+// Warning: (ae-internal-missing-underscore) The name "AwaitedCacheEntry" should be prefixed with an underscore because the declaration is marked as @internal
+//
+// @internal (undocumented)
+export class AwaitedCacheEntry<T> {
+    constructor(promise: PromiseLike<T>);
+    // (undocumented)
+    getAwaitedValue: () => T;
+}
+
 // (No @packageDocumentation comment for this package)
 
 ```
