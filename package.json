@@ -25,5 +25,13 @@
     "@types/heft-jest": "1.0.3",
     "prettier": "2.7.1",
     "@changesets/cli": "2.23.0"
+  },
+  "homepage": "https://github.com/dtinth/awaited#readme",
+  "bugs": {
+    "url": "https://github.com/dtinth/awaited#issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/awaited.git"
   }
 }
