@@ -20,15 +20,15 @@
   "types": "./dist/awaited.d.ts",
   "docModel": "./dist/awaited.api.json",
   "devDependencies": {
-    "@rushstack/heft": "0.45.12",
-    "@rushstack/heft-web-rig": "0.10.15",
+    "@rushstack/heft": "0.48.7",
+    "@rushstack/heft-web-rig": "0.12.10",
     "@types/heft-jest": "1.0.3",
     "prettier": "2.7.1",
     "@changesets/cli": "2.25.0"
   },
   "homepage": "https://github.com/dtinth/awaited#readme",
   "bugs": {
-    "url": "https://github.com/dtinth/awaited#issues"
+    "url": "https://github.com/dtinth/awaited/issues"
   },
   "repository": {
     "type": "git",
